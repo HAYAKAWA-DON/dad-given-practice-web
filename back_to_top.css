@@ -1,0 +1,20 @@
+/*返回顶部按钮*/
+#backToTop {
+    position: fixed; /* 固定在屏幕上 */
+    top: 100px;
+    right: 10px;
+    background-color: #007bff; /* 按钮颜色 */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 25px;
+    cursor: pointer;
+    display: none; /* 初始状态下隐藏按钮 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* 返回顶部按钮的鼠标悬停时的样式 */
+#backToTop:hover {
+    background-color: #0056b3;
+}
